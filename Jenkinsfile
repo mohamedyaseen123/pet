@@ -33,6 +33,6 @@ pipeline{
              sh "docker run -d -p 9090:9090 pet-clinic-image"
              echo 'Deploy the app with docker'
          }
-
+}
 }
 }
